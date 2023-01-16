@@ -1,0 +1,44 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: PaleGoldenrod;
+}
+
+p {
+  font-size: 2rem;
+  color: PaleGoldenrod;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+.buton{
+    text-align:center;
+
+}
+.buton button{
+    font-size: 2rem;
+    color: DarkSlateGray;
+    font-family: 'Indie Flower', cursive;
+    border-radius: 40% 20% 40% 20%;
+}
