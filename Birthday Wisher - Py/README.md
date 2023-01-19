@@ -9,7 +9,7 @@ import random , smtplib
  
  
 #### Mektupları Tanıtmak
-3 adet doğum günü mektubumuz var farklı .txt dosyaları içinde bunları with ve read ile çekiyoruz. ardından "Angela" kısmını "Erkam" ile "NAME" kısmını kime gönderilecekse onun isimiyle replace() ediyoruz.
+3 adet doğum günü mektubumuz var farklı .txt dosyaları içinde bunları with ve read ile çekiyoruz
 
 ```py
 with open(f"./letter_templates/letter_{random.randint(1,3)}.txt") as fs:  
@@ -91,4 +91,4 @@ ardından *starttls* ile güvenliğimizi alıyoruz login işlemi yapıp sendmail
 
 ![[wisherotomasyon.png]]
 
-Eğer istersek [[smtplib - pythonanywhere#pythonanywhere|pythonanywhere]] ile web üzerinden belirli bir düzende maili de yollayabiliriz. Her gün girip dosyayı çalıştırmak zor olsa gerek. 😊😊😊😊
+Eğer istersek [[smtplib - pythonanywhere#pythonanywhere|pythonanywhere]] ile web üzerinden belirli bir düzende maili de yollayabiliriz. 
