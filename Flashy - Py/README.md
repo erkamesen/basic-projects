@@ -6,7 +6,7 @@
 
 
 
-Program için veri girişini *.txt* dosyasından yaptım.
+Program için veritabanımı *.csv* olarak oluşturdum ayrıca,
 French-English yerine Turkish-English şeklinde çevirdim. Günlük hayatta en sık kullanılan 5000 ingilizce kelimeyi kullandım.
 
 
