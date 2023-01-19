@@ -23,8 +23,8 @@ while True:
 	8-  Break
 	9-  Long Break
 
-Pomodoro tekniği hakında daha fazla bilgi için:
-https://tr.wikipedia.org/wiki/Pomodoro_Tekni%C4%9Fi
+Pomodoro tekniği hakında daha fazla bilgi için [tıklayınız.](https://tr.wikipedia.org/wiki/Pomodoro_Tekni%C4%9Fi)
+
 
 Programlama Aşaması :
 ```py
