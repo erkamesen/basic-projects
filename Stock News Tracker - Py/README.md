@@ -1,4 +1,4 @@
-#proje #API #python #bootcamp 
+# Stock News Tracker
 
 > [!Stok Takip]
 > Belirttiğimiz miktarda yüzdelik değişim lduğunda otomatik mail atıcak python botu.
