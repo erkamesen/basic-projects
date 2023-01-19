@@ -1,4 +1,4 @@
-#proje #python 
+# Birthday Wisher
 
 
 *Kullandığım kütüphaneler:*
@@ -32,8 +32,8 @@ Mailleri ve uygulama passwordunı değişkenlere atıyoruz.
 [[smtplib - pythonanywhere#smtplib|smtplib]]
 
 ```py
-my_email = "erkamesen789@gmail.com"  
-password = "dgwspxfkkvtlqirs"    # GOOGLE 16 HANELİ UYGULAMA ŞİFRESİ  
+my_email = YOURMAIL 
+password = SMTPKEY   # GOOGLE 16 HANELİ UYGULAMA ŞİFRESİ  
 ```
 
 
