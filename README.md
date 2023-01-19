@@ -1,5 +1,5 @@
 # basic-projects
-Simple projects made with Python, JavaScript, HTML, CSS, Bootstrap
+Simple projects with Python, JavaScript, HTML, CSS
 
 
 Projects I made with what the knowledge i gained from the courses <br>
