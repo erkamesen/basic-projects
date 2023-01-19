@@ -48,8 +48,6 @@ requests işlemleriyle sitemize bağlanıyoruz. Fakat requests modülü bize sit
 
 Veri çekmek istediğimiz siteden html kaynak kodları içinden istediğimiz bölümü buluyoruz ardından *.find("etkiket ismi", {class : class ismi})* ile aradığımız niteliği çekebiliyoruz. Lakin biz burda 250 adet veri çekeceğimiz için *.find_all()* kullandık bu sayede bize hepsini verdi.
 
-Aldığımız veri toplu bir veri olduğu için *enumerate()* ile birlikte bir for döngüsüne sokuyoruz ve elimizdeki verinin içinde adeta bir yılan gibi sürünüyoruz :)
-
 Elimize geçen bilgileri daha detaylı görmek için data.a ile "*a*" etiketlerinin de içine giriyoruz fakat elimizde olan veri hala etiketli şekilde bu yüzden *data.a.text* ile tam olarak istediğimiz veriyi elde ediyoruz.
 
 Artık elimizde for döngüsüyle aldığımız 250 adet efsanevi film var şimdi bunları yine for döngüsü sayesinde her döngüde teker teker veritabanımıza pushlayabiliriz.
