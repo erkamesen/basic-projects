@@ -1,7 +1,6 @@
 # Stock News Tracker
 
-> [!Stok Takip]
-> Belirttiğimiz miktarda yüzdelik değişim lduğunda otomatik mail atıcak python botu.
+Belirttiğimiz miktarda yüzdelik değişim olduğunda otomatik olarak mail atıcak python botu.
 
 *Kütüphaneler:*
 
