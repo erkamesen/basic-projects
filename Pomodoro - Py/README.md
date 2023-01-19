@@ -1,8 +1,8 @@
-#proje #python #bootcamp
+# Pomodoro
 
 Snap from app:
 
-![[Pomodoro 2.png]]
+![Pomodoro 2](https://user-images.githubusercontent.com/120065120/213421820-4218b708-3d4a-4ab3-b761-a200e45971ba.png)
 
 Uygulama bir "Timer" uygulamasıdır. Toplamda 3 adet farklı modu mevcut.
 
