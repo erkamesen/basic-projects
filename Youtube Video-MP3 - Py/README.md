@@ -1,6 +1,5 @@
-#python #proje 
 
-### TKINTER ile GUI oluşturma
+# Youtube Video-Audio Downloader
 
 ![Seçim_013](https://user-images.githubusercontent.com/120065120/213432882-7dec1b3b-242d-4715-8990-af0b84c5d944.png)
 
