@@ -1,7 +1,9 @@
-#python #proje #bootcamp 
+# Flashy
+
+![flashy1](https://user-images.githubusercontent.com/120065120/213439373-229a5053-a7e3-4dd1-9f92-f5d56e8476ba.png)
 
 
-![[flashy1.png]]
+
 
 
 Program için veri girişini *.txt* dosyasından yaptım.
