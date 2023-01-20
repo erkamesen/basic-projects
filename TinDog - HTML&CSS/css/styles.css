@@ -1,0 +1,325 @@
+body{
+    font-family: "Montserrat";
+}
+
+
+h1 {  
+    font-family: 'Montserrat, sans-serif';  
+    font-size: 3.5rem;  
+    line-height: 1.5;  
+    font-weight: bolder;
+    } 
+
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h3{
+    font-family: "Montserrat-Bold";
+    font-size: 2rem;
+}
+ 
+#title{
+    background-color: #ff4c68;
+    border-radius: 0 0 15% 15% ;
+}
+
+
+.container-fluid{
+    padding: 3% 15% 0% 15%;
+    border-style: none none solid none;
+}
+
+
+#baslik{
+    
+    color:antiquewhite;
+    font-size: 3rem;
+    position: relative;
+    top: 50px;
+    line-height: 100px;
+}
+
+
+.fpage{
+    border-color: bisque;
+    border-radius: 0 0 30% 30%;
+}
+
+
+.anapanel{
+    height: 20px;
+    text-align: center;
+    width:70%;
+    border: 2px solid #1e1e1e;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: white;
+}
+#panel1{
+    border-radius: 0px 0px 50px 50px;
+}
+#panel2{
+    border-radius: 50px 50px 50px 50px;
+}
+
+
+/* NAVIGATION BAR */
+
+.navbar{
+    padding-bottom: 0 0 30px;
+}
+
+.navbar-brand{
+    font-family:"Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#title1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+    font-weight: 200;
+}
+
+.nav-item:hover{
+    color:#1e1e1e;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/* DOWNLOAD BUTONLAR */
+
+.butontutucu{
+    position: relative;
+    top: 100px;
+}
+
+.download-buton{
+    margin: 15% 3% 15% 0;
+}
+/* TITLE RESMİ */
+
+#ip6{
+    transform: rotate(25deg);
+    width: 57%;
+    position:relative;
+    top:100px;
+
+    overflow:hidden;
+}
+
+
+
+/* FEATURES SECTION */
+
+#features{
+    padding-top: 4%;
+}
+
+#features p{
+    color: #8f8f8f;
+    text-align: center;
+    padding-bottom: 40%;
+    font-family: "Montserrat-Bold";
+    font-weight:500;
+}
+#features p:hover{
+    color:#ff4c68
+}
+
+#features h3{
+    font-size: 2rem;
+    font-family: "Montserrat-Bold";
+    text-align: center;
+    font-weight: bolder;
+    padding: 0 0 4% 0;
+}
+
+.logolar{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.minilogolar{
+    padding: 0% 5% 15% 35%;
+    color: #ef8172;
+    
+}
+.minilogolar:hover{
+    color:lightslategray
+}
+
+/* TESTIMONIAL SECTION */
+
+#testimonials{
+    padding: 5% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+
+}
+
+#press{
+    border-radius: 0 0 24% 24%;
+}
+
+.carousel-item{
+
+    padding: 7% 7%;
+
+}
+
+
+/* .karousel{
+    border-style: solid;
+    border-color: #fff;
+    border-width: 2px;
+    border-radius: 30% 10% 30% 10%;
+    background-color: #ee4c68;
+}
+ */
+/* #testimonials h2{
+    width: 60%;
+    margin-left: 15%;
+} */
+
+.testimonial-image{
+    width: 18%;
+    border-radius: 100%;
+/*     margin: 20px;
+    padding-top: 5%; */
+}
+
+#testimonials em{
+    font-size: 1.2rem;
+}
+
+#press{
+    text-align: center;
+    background-color: #ef8172;
+    padding: 5% 7% 8% 7%
+}
+
+.presslogos{
+    width: 14%;
+    margin: 20px 20px 50px;
+}
+
+/* PRICING */
+
+#pricing{
+    margin: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 8% 2%;
+}
+
+#pricetitle{
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+
+.card-body{
+    min-height: 300px;
+}
+
+
+
+/* CTA SECTION */
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 10% 0 10% 0;
+    border-radius: 0 0 25% 25%;
+}
+
+#cta h3{
+    font-size: 4rem;
+    color: antiquewhite;
+    padding-bottom: 10%;
+    font-family: "Montserrat-Black";
+}
+
+#cta button{
+    size: 50%;
+}
+
+/* FOOTER SECTION */
+
+.ftr{
+    text-align: center;
+    padding: 10% 0 5% 0;
+    
+}
+
+.ftlogo{
+    padding: 0% 4% 0 4%;
+}
+
+.ftlogo:hover{
+    color:#007acc
+}
+
+#lgs1:hover{
+    color:#ed8128
+}
+#lgs2:hover{
+    color:#f6d373
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1028px) {
+    #title{
+        text-align: center;
+    }
+    #ip6{
+    transform: rotate(0deg);
+    width: 70%;
+    }
+}
