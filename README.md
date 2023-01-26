@@ -3,7 +3,7 @@ Simple projects with Python, JavaScript, HTML, CSS
 
 
 Projects I made with the knowledge i gained from the courses <br>
-## Projects with README:
+## Projects with README (TR):
 - [Birthday Wisher](https://github.com/erkamesen/basic-projects/tree/main/Birthday%20Wisher%20-%20Py#birthday-wisher)
 - [Flashy](https://github.com/erkamesen/basic-projects/tree/main/Flashy%20-%20Py#flashy)
 - [IMDBTOP250](https://github.com/erkamesen/basic-projects/blob/main/IMDBTOP250%20-%20Py/README.md#imdbtop250)
