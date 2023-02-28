@@ -1,38 +1,57 @@
-from bs4 import BeautifulSoup
-import requests
+from selenium import webdriver
+from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys   # Enter Shift bla bla
+import time
+from github import Follow
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+USERNAME = os.getenv("USERNAME") # replace with your github username
+PASSWORD = os.getenv("PASSWORD") # replace with your github password
+
+tracker = Follow(USERNAME) #github username
+traitors_list = tracker.non_followers()
+
+driver_path = "./geckodriver" # replace with your browser driver s path
+
+options = webdriver.FirefoxOptions() # ChromeOptions for chrome
+s = Service(executable_path=driver_path)
+
+##########################
+driver = webdriver.Firefox(options=options, service=s)
 
 
-class Follow:
+driver.get("http://www.github.com")
 
-    def __init__(self, username):
-        self.username = username
-        self.following_URL = f"https://github.com/{self.username}?tab=following"
-        self.followers_URL = f"https://github.com/{self.username}?tab=followers"
 
-    def get_following(self):
-        following_list = set()
-        response = requests.get(self.following_URL)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.content, "html.parser")
-        usernames = soup.find_all("span", class_="Link--secondary pl-1")
-        for username in usernames:
-            following_list.add(username.text)
-        return following_list
+# Login
+
+login = driver.find_element(
+    By.XPATH, "/html/body/div[1]/div[1]/header/div/div[2]/div/div/div[2]/a")
+login.click()
+
+time.sleep(1)
+login = driver.find_element(By.ID, "login_field").send_keys(USERNAME,
+                                                            Keys.TAB,
+                                                            PASSWORD,
+                                                            Keys.TAB,
+                                                            Keys.ENTER)
+
+
+time.sleep(1)
+
+
+
+for traitor in traitors_list:
+    driver.get(f"http://www.github.com/{traitor}")
+    time.sleep(1)
+    kill_him = driver.find_element(By.CSS_SELECTOR, "span.user-following-container:nth-child(3) > form:nth-child(2) > input:nth-child(2)")
+    kill_him.click()
+    time.sleep(1.5)
     
-    def get_traitors(self):
-        traitors = set()
-        following_list = self.get_following()
-        response = requests.get(self.followers_URL)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.content, "html.parser")
-        usernames = soup.find_all("span", class_="Link--secondary pl-1")
-        for username in usernames:
-            if username not in following_list:
-                traitors.add(username.text)
-        traitors = following_list - traitors 
-        for traitor in traitors:
-            print(traitor, end=" -\t- ")
-            print(f"https://github.com/{traitor}")
-            print("- - -")
-            
-        
+
+
+

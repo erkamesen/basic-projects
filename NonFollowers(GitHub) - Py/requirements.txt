@@ -1,0 +1,4 @@
+beautifulsoup4==4.11.2
+python-dotenv==1.0.0
+requests==2.25.1
+selenium==4.8.2
