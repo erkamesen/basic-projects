@@ -2,6 +2,14 @@
 Simple projects with Python, JavaScript, HTML, CSS
 
 ## Install:
+- Clone the repository:
+```
+git clone https://github.com/erkamesen/basic-projects.git
+```
+- Navigate to repo:
+```
+cd basic-projects/
+```
 
 
 Projects I made with the knowledge i gained from the courses <br>
