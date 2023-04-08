@@ -175,14 +175,14 @@ YELLOW = "#f7f5dd"
 FONT_NAME = "Courier"
 
 
----------------------------- UI SETUP -------------------------------
+## UI Setup
 
 Öncelikle Tk classından 1 adet window oluşturup attribute larını belirtiyoruz.(bg, fg, title,
 padx, pady)
 
 Tüm widgetlar grid() fonksiyonuyla yerleştirilmiştir.(column = x row = y) 
 
-----------ADD PHOTO-TEXT WITH CANVAS - PhotoImage CLASS----------
+## Add Photo & Text
 
 
 Ekrana fotoğraf eklemek için Canvas ve PhotoImage classını kullanıyoruz. 
@@ -191,19 +191,19 @@ PhotoImage içindeki "file="" parametresiyle bilgisayar üzerinden her hangi bir
 Programımızda canvasın 2 adet methodundan yararlandık. Domatesi ortaya yerleştirmek için create_image ile x ve y koordinatlarını ayarladık.
 create_text ile domatesin üzerindeki yazıyı yazdık.Labelların aksine canvas methodlarında değişiklik yaparken canvas.config yerine canvas.itemconfig adlı bir fonksiyon kullandık.
 
---------------------------- LABEL ---------------------------
+## Label
 
 Ekranın top seviyesinde ki o anki modu belirtmek için bir label ve en altta da çalışma modu her bittiğinde bir artan "check mark (✓)" var.
 Check marklar reset fonksiyonuyla temizlenmektedir.
 
---------------------------- BUTTON --------------------------
+## Button
 
 2 Adet butonumuz mevcut:
 
 -Start command = start_timer ---- : Loopu başlatır 
 -Reset command = res ---- : Loopu sıfırlar ve en başa sarar .(Global reps değişkeni en başta 0 değerinde fakat. start_timer fonksiyonu içinde globale çekip her loopda 1 artıyor.)
 
--------FUNCTIONS-------
+## Functions
 
 *def count_down(count) :*
 	Öncelikle zamanı "00:00" şeklinde dijital bir şekilde yazabilmek için. saniye olarak aldığımız count değerini 60 ile bölüyoruz kalanı yuvarlarken daha yakın olsa bile üste değil de tabana çekmek için math kütüphanesinden floor fonksiyonunu kullanıyoruz. Tek haneli olmasın diye if koşuluyla 0 dan 9 a kadar olan kısımda yanına bir 0 ekliyoruz.(Aynı şey saniye kısmı içinde geçerli.)
