@@ -34,4 +34,4 @@ while True:
     word = driver.find_element(By.CLASS_NAME, "highlight").text.strip()
 
     inputfield.send_keys(word, Keys.ENTER, Keys.SPACE)
-    time.sleep(0.1)
+    # time.sleep(0.1)
