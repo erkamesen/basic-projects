@@ -60,7 +60,8 @@ f-string yardımı ile yine *.execute()* kullanarak FILMS tablomuzun içine bilg
 
 
 
-![[Seçim_015.png]]
+![Seçim_015](https://user-images.githubusercontent.com/120065120/230721293-2c677fd0-29bf-489f-a3ab-cd1647a8bf0a.png)
+
 
 *DB Browser for SQLite*
 
