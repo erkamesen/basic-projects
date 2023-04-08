@@ -22,7 +22,7 @@ with open(f"./letter_templates/letter_{random.randint(1,3)}.txt") as fs:
 >Dear [NAME],  
 >Happy birthday!  
 >All the best for the year!  
->Angela
+>Erkam
   
 
 ---
@@ -89,6 +89,8 @@ i 0 yada 1 ken günümüze ve monthumuza bakıyoruz ve bu günle karşılaştır
 with metoduyla SMTP serverimizi açıyoruz portumuz yerleştirip değişkene atıyoruz.
 ardından *starttls* ile güvenliğimizi alıyoruz login işlemi yapıp sendmail ile mesajımızı yolluyoruz.
 
-![[wisherotomasyon.png]]
+![wisherotomasyon](https://user-images.githubusercontent.com/120065120/230721258-47d1c23d-ca8a-4ea0-b2cb-208064a97205.png)
+
+
 
 Eğer istersek [[smtplib - pythonanywhere#pythonanywhere|pythonanywhere]] ile web üzerinden belirli bir düzende maili de yollayabiliriz. 
